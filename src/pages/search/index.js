@@ -4,8 +4,6 @@ import { getPets } from '../../api/petfinder';
 import Pet from '../../components/pet';
 import { useSearchParams } from 'react-router-dom';
 
-// Import useSearchParams
-
 const SearchPage = () => {
 
   const [searchParams] = useSearchParams()
