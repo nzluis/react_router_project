@@ -1,7 +1,5 @@
 import React, { useRef } from 'react';
 import { createSearchParams, useNavigate } from 'react-router-dom';
-// Import createSearchParams
-// Import useNavigate
 
 const Search = () => {
 
