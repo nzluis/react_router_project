@@ -3,9 +3,6 @@ import { getPetDetails } from '../../api/petfinder';
 import Hero from '../../components/hero';
 import { Navigate, useParams } from 'react-router-dom';
 
-// Import useParams
-// Import Navigate
-
 const PetDetailsPage = () => {
   const [data, setData] = useState();
   const [loading, setLoading] = useState(true);
