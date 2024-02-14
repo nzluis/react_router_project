@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const PetDetailsNotFound = () => {
 
   const navigate = useNavigate();
-
   const goHome = () => {
     navigate('/')
   }
